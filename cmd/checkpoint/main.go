@@ -10,7 +10,7 @@ import (
 	"github.com/golang/glog"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/checkpoint"
+	"github.com/charter-se/bootkube/pkg/checkpoint"
 )
 
 const (

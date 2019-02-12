@@ -9,9 +9,9 @@ import (
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/checkpoint/cri/v1alpha1"
-	"github.com/kubernetes-incubator/bootkube/pkg/checkpoint/cri/v1alpha2"
-	"github.com/kubernetes-incubator/bootkube/pkg/checkpoint/internal"
+	"github.com/charter-se/bootkube/pkg/checkpoint/cri/v1alpha1"
+	"github.com/charter-se/bootkube/pkg/checkpoint/cri/v1alpha2"
+	"github.com/charter-se/bootkube/pkg/checkpoint/internal"
 )
 
 // Copied from "k8s.io/kubernetes/pkg/kubelet/types"

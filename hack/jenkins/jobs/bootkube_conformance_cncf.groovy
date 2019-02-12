@@ -1,5 +1,5 @@
 // META
-repo = "kubernetes-incubator/bootkube"
+repo = "charter-se/bootkube"
 
 // CONFIG
 org_whitelist = ['coreos', 'coreos-inc']

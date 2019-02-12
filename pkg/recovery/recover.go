@@ -24,7 +24,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/asset"
+	"github.com/charter-se/bootkube/pkg/asset"
 )
 
 const (

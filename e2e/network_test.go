@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kubernetes-incubator/bootkube/e2e/internal/e2eutil/testworkload"
+	"github.com/charter-se/bootkube/e2e/internal/e2eutil/testworkload"
 
 	"k8s.io/api/extensions/v1beta1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

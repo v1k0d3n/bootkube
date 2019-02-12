@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/asset"
+	"github.com/charter-se/bootkube/pkg/asset"
 )
 
 var (

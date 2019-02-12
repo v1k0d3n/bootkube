@@ -10,7 +10,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/asset"
+	"github.com/charter-se/bootkube/pkg/asset"
 
 	"github.com/coreos/etcd/clientv3"
 	"k8s.io/apimachinery/pkg/api/meta"

@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/bootkube"
-	"github.com/kubernetes-incubator/bootkube/pkg/recovery"
+	"github.com/charter-se/bootkube/pkg/bootkube"
+	"github.com/charter-se/bootkube/pkg/recovery"
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/spf13/cobra"

@@ -10,7 +10,7 @@ import (
 
 	"github.com/ghodss/yaml"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/asset/internal"
+	"github.com/charter-se/bootkube/pkg/asset/internal"
 )
 
 const (

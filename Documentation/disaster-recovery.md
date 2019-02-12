@@ -11,7 +11,7 @@ failure scenarios:
 To minimize the likelihood of any of the these scenarios, production
 self-hosted clusters should always run in a high-availability configuration
 (**TODO:** [add documentation for running high-availability self-hosted
-clusters](https://github.com/kubernetes-incubator/bootkube/issues/311)).
+clusters](https://github.com/charter-se/bootkube/issues/311)).
 
 Nevertheless, in the event of a control plane loss the bootkube project
 provides limited disaster avoidance and recovery support through the
@@ -39,7 +39,7 @@ render` to create cluster manifests. Using the Pod Checkpointer is highly
 recommended for all self-hosted clusters to ensure node reboot resiliency.
 
 For more information, see the [Pod Checkpointer
-README](https://github.com/kubernetes-incubator/bootkube/blob/master/cmd/checkpoint/README.md).
+README](https://github.com/charter-se/bootkube/blob/master/cmd/checkpoint/README.md).
 
 ## Bootkube Recover
 
@@ -85,7 +85,7 @@ automatically tear down the recovery control plane.
 
 For best results always use the most recently tagged Bootkube release when using `recover`,
 regardless of which release was used to create the cluster. To see the available releases,
-checkout [the tagged binary releases on GitHub](https://github.com/kubernetes-incubator/bootkube/releases)
+checkout [the tagged binary releases on GitHub](https://github.com/charter-se/bootkube/releases)
 or [the tagged Docker images on Quay.io](https://quay.io/repository/coreos/bootkube).
 
 To see available options, run:
@@ -116,7 +116,7 @@ attempt to recreate self-hosted assets; it only runs a temporary control plane
 to allow the self-hosted control plane to recover itself.
 
 For complete recovery examples see the
-[hack/multi-node/bootkube-test-recovery](https://github.com/kubernetes-incubator/bootkube/blob/master/hack/multi-node/bootkube-test-recovery)
+[hack/multi-node/bootkube-test-recovery](https://github.com/charter-se/bootkube/blob/master/hack/multi-node/bootkube-test-recovery)
 and
 
 [![asciicast](https://asciinema.org/a/dsp43ziuuzwcztni94y8l25s5.png)](https://asciinema.org/a/dsp43ziuuzwcztni94y8l25s5)

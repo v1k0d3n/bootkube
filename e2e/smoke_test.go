@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kubernetes-incubator/bootkube/e2e/internal/e2eutil/testworkload"
+	"github.com/charter-se/bootkube/e2e/internal/e2eutil/testworkload"
 )
 
 func TestSmoke(t *testing.T) {

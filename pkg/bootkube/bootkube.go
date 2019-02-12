@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/asset"
+	"github.com/charter-se/bootkube/pkg/asset"
 
 	"k8s.io/client-go/tools/clientcmd"
 )

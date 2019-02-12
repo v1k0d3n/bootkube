@@ -117,7 +117,7 @@
 		]
 	},
 	{
-		"project": "github.com/kubernetes-incubator/bootkube",
+		"project": "github.com/charter-se/bootkube",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

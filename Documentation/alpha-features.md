@@ -15,5 +15,5 @@ This alpha annotation will retain the endpoints even if the etcd pod isn't ready
 This feature is always enabled in endpoint controller in k8s even it is alpha.
 
 References:
-- https://github.com/kubernetes-incubator/bootkube/issues/599
-- https://github.com/kubernetes-incubator/bootkube/pull/626#issuecomment-313187659
+- https://github.com/charter-se/bootkube/issues/599
+- https://github.com/charter-se/bootkube/pull/626#issuecomment-313187659

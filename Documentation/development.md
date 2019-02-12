@@ -9,8 +9,8 @@
 First, clone the repo into the proper location in your [`GOPATH`][GOPATH]:
 
 ```
-go get -u github.com/kubernetes-incubator/bootkube
-cd $(go env GOPATH | cut -d: -f1)/src/github.com/kubernetes-incubator/bootkube
+go get -u github.com/charter-se/bootkube
+cd $(go env GOPATH | cut -d: -f1)/src/github.com/charter-se/bootkube
 ```
 
 Then build:

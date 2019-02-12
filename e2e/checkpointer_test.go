@@ -15,7 +15,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/kubernetes/scheme"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/asset"
+	"github.com/charter-se/bootkube/pkg/asset"
 )
 
 const (
@@ -73,8 +73,8 @@ func testCheckpointerUnscheduleCheckpointer(t *testing.T) {
 	}
 
 	// Currently disabled due to e2e testing flakes. See:
-	// * https://github.com/kubernetes-incubator/bootkube/issues/816
-	// * https://github.com/kubernetes-incubator/bootkube/pull/836
+	// * https://github.com/charter-se/bootkube/issues/816
+	// * https://github.com/charter-se/bootkube/pull/836
 	// if err := verifyCheckpoint(c, testNS, "test-checkpointer", false, false); err != nil {
 	//   t.Fatalf("Failed to verifyCheckpoint: %s", err)
 	// }

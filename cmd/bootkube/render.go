@@ -12,8 +12,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/asset"
-	"github.com/kubernetes-incubator/bootkube/pkg/tlsutil"
+	"github.com/charter-se/bootkube/pkg/asset"
+	"github.com/charter-se/bootkube/pkg/tlsutil"
 )
 
 const (

@@ -34,7 +34,7 @@ However, this should also be balanced against the longer-term goal, which would 
 For some past discussions related to these topics, see:
 - https://github.com/kubernetes/kubeadm/issues/131
 - https://github.com/kubernetes/kubernetes/issues/489
-- https://github.com/kubernetes-incubator/bootkube/issues/424
+- https://github.com/charter-se/bootkube/issues/424
 
 ## Updating Kubernetes Version
 

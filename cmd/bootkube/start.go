@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/bootkube"
+	"github.com/charter-se/bootkube/pkg/bootkube"
 )
 
 var (

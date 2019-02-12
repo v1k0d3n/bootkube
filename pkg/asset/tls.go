@@ -8,7 +8,7 @@ import (
 
 	"github.com/pborman/uuid"
 
-	"github.com/kubernetes-incubator/bootkube/pkg/tlsutil"
+	"github.com/charter-se/bootkube/pkg/tlsutil"
 )
 
 func newTLSAssets(caCert *x509.Certificate, caPrivKey *rsa.PrivateKey, altNames tlsutil.AltNames) ([]Asset, error) {

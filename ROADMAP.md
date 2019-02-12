@@ -2,11 +2,11 @@
 
 ## v1.0.0 targets
 
-- [ ] Recovery from etcd-backup part of e2e testing (https://github.com/kubernetes-incubator/bootkube/issues/596)
+- [ ] Recovery from etcd-backup part of e2e testing (https://github.com/charter-se/bootkube/issues/596)
 - [ ] Publicly published upstream conformance tests
 - [ ] How-it-works documentation for bootkube
-- [ ] Documentation for running HA clusters (https://github.com/kubernetes-incubator/bootkube/issues/311)
-- [ ] Versioned configuration objects replace flags (https://github.com/kubernetes-incubator/bootkube/issues/565)
+- [ ] Documentation for running HA clusters (https://github.com/charter-se/bootkube/issues/311)
+- [ ] Versioned configuration objects replace flags (https://github.com/charter-se/bootkube/issues/565)
 
 ## Upstream Features (as available)
 

@@ -14,8 +14,8 @@ Before beginning an upgrade, it is recommended you evaluate if an in-place upgra
 
 Find the diff between bootkube assets generated for the existing cluster version and the desired version. This depends on the tool used to generate assets:
 
-* Github [compare](https://github.com/kubernetes-incubator/bootkube/compare/v0.5.0...v0.5.1) changes between the existing and desired versions and infer the appropriate cluster changes.
-* [bootkube render](https://github.com/kubernetes-incubator/bootkube) - Install the `bootkube` binaries for the existing and desired versions. Render assets to different locations with each binary and diff the assets.
+* Github [compare](https://github.com/charter-se/bootkube/compare/v0.5.0...v0.5.1) changes between the existing and desired versions and infer the appropriate cluster changes.
+* [bootkube render](https://github.com/charter-se/bootkube) - Install the `bootkube` binaries for the existing and desired versions. Render assets to different locations with each binary and diff the assets.
 * [External Tools](users-integrations.md) - Check the docs for the external tool and compare assets generated for each version.
 
 In simple cases, you may only need to bump the version of a few images. In more complex cases, there may be entirely new components, configuration, or flags.
